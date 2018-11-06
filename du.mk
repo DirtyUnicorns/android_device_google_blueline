@@ -39,8 +39,8 @@ PRODUCT_MANUFACTURER := Google
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=blueline \
-    BUILD_FINGERPRINT=google/blueline/blueline:9/PD1A.180720.030/4972053:user/release-keys \
-    PRIVATE_BUILD_DESC="blueline-user 9 PD1A.180720.030 4972053 release-keys"
+    BUILD_FINGERPRINT=google/blueline/blueline:9/PQ1A.181105.017.A1/5081125:user/release-keys \
+    PRIVATE_BUILD_DESC="blueline-user 9 PQ1A.181105.017.A1 5081125 release-keys"
 
 $(call inherit-product-if-exists, vendor/google/blueline/blueline-vendor.mk)
 $(call inherit-product-if-exists, vendor/pixelgapps/pixel-gapps.mk)
