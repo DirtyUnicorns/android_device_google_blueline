@@ -1,4 +1,4 @@
-# Copyright (C) 2018 The Dirty Unicorns Project
+# Copyright (C) 2018-2019 The Dirty Unicorns Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,11 +14,11 @@
 
 #
 # This file is the build configuration for an aosp Android
-# build for flounder hardware. This cleanly combines a set of
+# build for marlin hardware. This cleanly combines a set of
 # device-specific aspects (drivers) with a device-agnostic
 # product configuration (apps). Except for a few implementation
 # details, it only fundamentally contains two inherit-product
-# lines, aosp and flounder, hence its name.
+# lines, aosp and du, hence its name.
 #
 
 # Include DU common configuration
@@ -38,9 +38,14 @@ PRODUCT_MODEL := Pixel 3
 PRODUCT_MANUFACTURER := Google
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=blueline \
-    BUILD_FINGERPRINT=google/blueline/blueline:9/PQ3A.190801.002/5670241:user/release-keys \
-    PRIVATE_BUILD_DESC="blueline-user 9 PQ3A.190801.002 5670241 release-keys"
+    PRODUCT_NAME="blueline" \
+    TARGET_DEVICE="blueline" \
+    PRIVATE_BUILD_DESC="blueline-user 10 QP1A.190711.020 5800535 release-keys"
+
+BUILD_FINGERPRINT := "google/blueline/blueline:10/QP1A.190711.020/5800535:user/release-keys"
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.build.fingerprint=google/blueline/blueline:10/QP1A.190711.020/5800535:user/release-keys
 
 $(call inherit-product-if-exists, vendor/google/blueline/blueline-vendor.mk)
 $(call inherit-product-if-exists, vendor/pixelgapps/pixel-gapps.mk)
