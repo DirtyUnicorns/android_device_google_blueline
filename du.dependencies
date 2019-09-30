@@ -1,21 +1,21 @@
 [
  {
-   "repository":  "UnicornioSucio/android_device_google_crosshatch",
+   "repository":  "DirtyUnicorns/android_device_google_crosshatch",
    "target_path": "device/google/crosshatch",
    "branch":      "q10x"
  },
  {
-   "repository":  "UnicornioSucio/android_device_google_crosshatch-sepolicy",
+   "repository":  "DirtyUnicorns/android_device_google_crosshatch-sepolicy",
    "target_path": "device/google/crosshatch-sepolicy",
    "branch":      "q10x"
  },
  {
-   "repository":  "UnicornioSucio/android_kernel_google_bluecross",
+   "repository":  "DirtyUnicorns/android_kernel_google_bluecross",
    "target_path": "kernel/google/bluecross",
    "branch":      "q10x"
  },
  {
-   "repository":  "UnicornioSucio/android_vendor_google",
+   "repository":  "DirtyUnicorns/android_vendor_google",
    "target_path": "vendor/google",
    "branch":      "q10x"
  }
