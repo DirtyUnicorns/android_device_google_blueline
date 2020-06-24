@@ -45,7 +45,5 @@ BUILD_FINGERPRINT := "google/blueline/blueline:10/QQ3A.200705.002/6506677:user/r
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.fingerprint=google/blueline/blueline:10/QQ3A.200705.002/6506677:user/release-keys
 
-BOARD_PREBUILT_VENDORIMAGE := vendor/images/blueline/vendor.img
-
 $(call inherit-product-if-exists, vendor/google/blueline/blueline-vendor.mk)
 $(call inherit-product-if-exists, vendor/pixelgapps/pixel-gapps.mk)
