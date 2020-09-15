@@ -38,12 +38,12 @@ PRODUCT_MODEL := Pixel 3
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="blueline" \
-    PRIVATE_BUILD_DESC="blueline-user 10 QQ3A.200805.001 6578210 release-keys"
+    PRIVATE_BUILD_DESC="blueline-user 11 RP1A.200720.009 6720564 release-keys"
 
-BUILD_FINGERPRINT := "google/blueline/blueline:10/QQ3A.200805.001/6578210:user/release-keys"
+BUILD_FINGERPRINT := "google/blueline/blueline:11/RP1A.200720.009/6720564:user/release-keys"
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.build.fingerprint=google/blueline/blueline:10/QQ3A.200805.001/6578210:user/release-keys
+    ro.build.fingerprint=google/blueline/blueline:11/RP1A.200720.009/6720564:user/release-keys
 
 $(call inherit-product-if-exists, vendor/google/blueline/blueline-vendor.mk)
 $(call inherit-product-if-exists, vendor/pixelgapps/pixel-gapps.mk)
