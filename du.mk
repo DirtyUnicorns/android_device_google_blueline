@@ -1,4 +1,4 @@
-# Copyright (C) 2018-2020 The Dirty Unicorns Project
+# Copyright (C) 2018-2021 The Dirty Unicorns Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -38,12 +38,12 @@ PRODUCT_MODEL := Pixel 3
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="blueline" \
-    PRIVATE_BUILD_DESC="blueline-user 11 RQ1A.201205.003 6906706 release-keys"
+    PRIVATE_BUILD_DESC="blueline-user 11 RQ1A.210105.003 7005429 release-keys"
 
-BUILD_FINGERPRINT := "google/blueline/blueline:11/RQ1A.201205.003/6906706:user/release-keys"
+BUILD_FINGERPRINT := "google/blueline/blueline:11/RQ1A.210105.003/7005429:user/release-keys"
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.build.fingerprint=google/blueline/blueline:11/RQ1A.201205.003/6906706:user/release-keys
+    ro.build.fingerprint=google/blueline/blueline:11/RQ1A.210105.003/7005429:user/release-keys
 
 $(call inherit-product-if-exists, vendor/google/blueline/blueline-vendor.mk)
 $(call inherit-product-if-exists, vendor/pixelgapps/pixel-gapps.mk)
